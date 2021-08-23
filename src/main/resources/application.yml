@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: usage_message
+  rabbitmq:
+    host: localhost
+    username: watchTower
+    password: watchTower
+
+logging:
+  level:
+    org: ERROR
+
+tutorial:
+  client:
+    duration: 120000
